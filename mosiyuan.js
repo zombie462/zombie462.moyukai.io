@@ -2240,7 +2240,7 @@
 				gameTick(s){
 					s*=Math.max(1e-3,this.worldSpeed);
 
-					this.moSiyuan(s*this.bookEffect);
+					this.moYukai(s*this.bookEffect);
 				
 					this.theology+=s*this.theologyPerSec;
 					let msc=Math.min(this.magicStone,s*this.magicCostPerSec);
